@@ -1,0 +1,121 @@
+Crea el código HTML, CSS y JavaScript para una página web estática profesional para 'Neura Consulting', una consultoría especializada en gobernanza de datos. El diseño debe ser moderno, responsivo y reflejar un tono técnico pero accesible y formal. La web debe estar orientada a organizaciones de todos los tamaños que manejan grandes volúmenes de datos, destacando la experiencia de la consultora en entornos públicos y privados, su conocimiento profundo y su capacidad para asegurar datos confiables, cumplimiento normativo, infraestructura y orden de datos (incluyendo Data Hubs).
+
+La página web debe incluir las siguientes secciones con el contenido proporcionado:
+
+Header (Encabezado):
+
+Logo/Nombre: 'Neura Consulting'
+
+Menú de Navegación: Inicio, Servicios, Sobre Nosotros, Capacitaciones, Preguntas Frecuentes, Contacto.
+
+Botón de Llamada a la Acción: "Solicitar Consulta" o "Contáctenos".
+
+Debe ser un header sticky (fijo en la parte superior al hacer scroll).
+
+Hero Section (Sección Principal):
+
+Título Principal: "Gobernanza de Datos: Transformamos su información en su mayor activo."
+
+Subtítulo/Descripción: "En Neura Consulting, ayudamos a organizaciones de todos los tamaños a establecer una gestión de datos sólida y estratégica. Asegure la confiabilidad, el cumplimiento normativo y la eficiencia de su infraestructura de datos para una toma de decisiones informada."
+
+Botón de Llamada a la Acción: "Descubra Nuestros Servicios".
+
+Incluye un placeholder para una imagen de fondo relevante al tema de datos/tecnología con un overlay semi-transparente para mejorar la legibilidad del texto.
+
+About Section (Sobre Nosotros):
+
+Título: "Neura Consulting: Expertos en Estrategia y Gobernanza de Datos"
+
+Contenido:
+
+Párrafo 1: "Neura Consulting se especializa en brindar soluciones integrales de gobernanza de datos que permiten a las organizaciones maximizar el valor de su información. Con una sólida trayectoria en entornos tanto privados como públicos, entendemos los desafíos únicos que enfrentan las empresas al gestionar grandes volúmenes de datos en un ecosistema regulatorio en constante evolución."
+
+Párrafo 2: "Nuestro enfoque se basa en un conocimiento profundo de las mejores prácticas y tecnologías del sector. Trabajamos codo a codo con nuestros clientes para diseñar e implementar marcos de gobernanza que garantizan la confiabilidad, calidad y seguridad de sus datos, facilitando así una toma de decisiones estratégica y un cumplimiento normativo sin fisuras."
+
+Frase Destacada: "Convierta sus datos en una ventaja competitiva sostenible."
+
+Services Section (Servicios):
+
+Título: "Nuestros Servicios: Una Gobernanza de Datos Integral"
+
+Descripción General: "Ofrecemos un portfolio de servicios diseñado para cubrir todas las facetas de la gobernanza de datos, desde la estrategia inicial hasta la implementación y optimización continua."
+
+Lista de Servicios (con descripciones concisas y un ícono/imagen placeholder para cada una):
+
+1. Consultoría en Gobernanza de Datos y Cumplimiento Normativo: "Establecemos marcos de gobernanza robustos que aseguran la confiabilidad de sus datos y el cumplimiento con regulaciones como GDPR, LGPD y normativas locales."
+
+2. Optimización de Infraestructura y Bases de Datos: "Diseñamos e implementamos soluciones para estructurar y ordenar sus datos, incluyendo la arquitectura de Data Hubs y la integración de diversas bases de datos para una gestión centralizada y eficiente."
+
+3. Calidad y Confiabilidad de Datos: "Desarrollamos estrategias y herramientas para garantizar la integridad, precisión y consistencia de sus datos, fundamentales para una toma de decisiones precisa."
+
+4. Estrategia de Datos y Arquitectura Empresarial: "Ayudamos a definir una visión clara para sus datos, alineando su estrategia de información con sus objetivos de negocio y diseñando la arquitectura tecnológica adecuada."
+
+5. Auditoría y Evaluación de Madurez de Datos: "Realizamos diagnósticos exhaustivos de sus procesos y sistemas de datos para identificar brechas, riesgos y oportunidades de mejora."
+
+Capacitaciones Section:
+
+Título: "Capacitaciones en Gobernanza de Datos y Habilidades Digitales"
+
+Descripción General: "En Neura Consulting, creemos que el conocimiento es poder. Ofrecemos programas de capacitación personalizados, tanto para equipos empresariales como para profesionales individuales, diseñados para fortalecer sus habilidades en el manejo y la gobernanza de datos."
+
+Ejemplos de Capacitaciones (dos columnas o lista con viñetas):
+
+Para Empresas: "Talleres in-company sobre mejores prácticas en calidad de datos.", "Formación especializada en cumplimiento normativo de datos para su equipo.", "Programas de concientización en gobernanza de datos para todos los niveles organizacionales."
+
+Para Profesionales Individuales: "Cursos introductorios a la gobernanza de datos.", "Dominio de herramientas para la gestión de datos.", "Sesiones sobre la importancia de datos confiables en la toma de decisiones."
+
+Botón de Llamada a la Acción: "Solicitar Programa a Medida".
+
+Preguntas Frecuentes (FAQ) Section:
+
+Título: "Preguntas Frecuentes"
+
+Descripción: "Hemos recopilado las preguntas más comunes sobre la gobernanza de datos y cómo Neura Consulting puede asistir a su organización."
+
+Ejemplos de Preguntas y Respuestas (usar un formato expandible/colapsable tipo acordeón si es posible):
+
+¿Qué es la gobernanza de datos y por qué es importante para mi empresa? Respuesta: La gobernanza de datos es un marco de políticas y procesos que asegura la calidad, disponibilidad, usabilidad, integridad y seguridad de los datos en una organización. Es crucial para el cumplimiento normativo, la toma de decisiones basada en datos y la optimización operativa.
+
+¿Cómo puede Neura Consulting ayudarme con el cumplimiento normativo de datos? Respuesta: Asesoramos en la implementación de políticas y controles para cumplir con regulaciones como GDPR, LGPD, entre otras, minimizando riesgos legales y financieros.
+
+¿Trabajan con empresas de mi tamaño? Respuesta: Sí, ofrecemos soluciones escalables para organizaciones de todos los tamaños, desde startups hasta grandes corporaciones, adaptándonos a sus necesidades y presupuesto específicos.
+
+¿Qué significa tener 'datos confiables'? Respuesta: Significa que sus datos son precisos, completos, consistentes y están actualizados, permitiéndole tomar decisiones estratégicas con total confianza y sin ambigüedades.
+
+Contact Section (Contacto):
+
+Título: "Póngase en Contacto con Neura Consulting"
+
+Descripción: "¿Listo para transformar la gestión de sus datos? Contáctenos hoy mismo para una consulta personalizada."
+
+Información de Contacto:
+
+Dirección: Placeholder (San Rafael, Mendoza, Argentina)
+
+Teléfono: Placeholder
+
+Email: Placeholder
+
+Horario de Atención: Placeholder
+
+Redes Sociales: Enlaces a LinkedIn y otras redes relevantes.
+
+Formulario de Contacto Simple: Campos: Nombre, Email, Teléfono (opcional), Empresa (opcional), Mensaje. Botón: "Enviar Mensaje".
+
+Footer (Pie de Página):
+
+Copyright: "© [Año Actual] Neura Consulting. Todos los derechos reservados."
+
+Enlaces Rápidos: Política de Privacidad, Términos y Condiciones, Aviso Legal (placeholders).
+
+Consideraciones Técnicas y de Diseño:
+
+Diseño: Utiliza una paleta de colores profesional y moderna (ej. tonos de azul, gris, blanco) y tipografías legibles.
+
+Responsividad: Asegura que el diseño se vea excelente en dispositivos móviles, tablets y escritorios, utilizando media queries de forma efectiva.
+
+Accesibilidad: Considera principios básicos de accesibilidad.
+
+JavaScript: Mínimo JavaScript para funcionalidades como el header sticky y el acordeón de FAQ. No se requiere lógica de backend compleja ni interacción con APIs externas.
+
+Código: El código debe ser limpio, modular y bien comentado para facilitar futuras modificaciones y la personalización de los placeholders.
