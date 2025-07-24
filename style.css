@@ -146,8 +146,7 @@ h6 {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 20%, #764ba2 80%);
-    background-image: url('images/logos/hero.png');    
+    background-image: url('delaudenuria/neuraconsulting/neuraconsulting-a884f18989e264ef4d69c580e7f8c9a37e738ff2/images/logos/hero.png');    
     background-size: cover;
     background-position: center;
     position: relative;
@@ -158,13 +157,137 @@ h6 {
     color: white;
 }
 
+/* Partículas de fondo para la sección Hero */
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    background-color: rgba(74, 0, 224, 0.6);
+    border-radius: 50%;
+    animation: floatAndFade 15s infinite ease-in-out;
+    opacity: 0;
+}
+
+/* Variaciones de tamaño y color para las partículas */
+.particle:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    left: 10%;
+    top: 20%;
+    animation-delay: 0s;
+    background-color: rgba(102, 126, 234, 0.6);
+}
+.particle:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    left: 30%;
+    top: 50%;
+    animation-delay: 2s;
+    background-color: rgba(118, 75, 162, 0.6);
+}
+.particle:nth-child(3) {
+    width: 25px;
+    height: 25px;
+    left: 60%;
+    top: 10%;
+    animation-delay: 4s;
+    background-color: rgba(74, 0, 224, 0.6);
+}
+.particle:nth-child(4) {
+    width: 15px;
+    height: 15px;
+    left: 80%;
+    top: 70%;
+    animation-delay: 6s;
+    background-color: rgba(102, 126, 234, 0.6);
+}
+.particle:nth-child(5) {
+    width: 35px;
+    height: 35px;
+    left: 5%;
+    top: 80%;
+    animation-delay: 8s;
+    background-color: rgba(118, 75, 162, 0.6);
+}
+.particle:nth-child(6) {
+    width: 22px;
+    height: 22px;
+    left: 45%;
+    top: 5%;
+    animation-delay: 10s;
+    background-color: rgba(74, 0, 224, 0.6);
+}
+.particle:nth-child(7) {
+    width: 28px;
+    height: 28px;
+    left: 70%;
+    top: 40%;
+    animation-delay: 12s;
+    background-color: rgba(102, 126, 234, 0.6);
+}
+.particle:nth-child(8) {
+    width: 18px;
+    height: 18px;
+    left: 90%;
+    top: 25%;
+    animation-delay: 14s;
+    background-color: rgba(118, 75, 162, 0.6);
+}
+.particle:nth-child(9) {
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    top: 90%;
+    animation-delay: 16s;
+    background-color: rgba(74, 0, 224, 0.6);
+}
+.particle:nth-child(10) {
+    width: 10px;
+    height: 10px;
+    left: 55%;
+    top: 75%;
+    animation-delay: 18s;
+    background-color: rgba(102, 126, 234, 0.6);
+}
+
+/* Definición de la animación */
+@keyframes floatAndFade {
+    0% {
+        transform: translateY(0) translateX(0) scale(0.8);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-100px) translateX(50px) scale(1.2);
+        opacity: 0.8;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-200px) translateX(100px) scale(0.8);
+        opacity: 0;
+    }
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -251,8 +374,8 @@ h6 {
 }
 
 .logo-item img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     object-fit: contain;
     filter: grayscale(100%);
     opacity: 0.8;
@@ -521,18 +644,20 @@ h6 {
 }
 
 .social-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
+    background-color: #4a00e0;
     color: white;
     border-radius: 50%;
     transition: all 0.3s ease;
     text-decoration: none;
+    display: inline-flex; /* Asegura que se muestren en línea */
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
 }
 
 .social-link:hover {
+    background-color: #3a00b0;
     transform: translateY(-2px);
     text-decoration: none;
 }
@@ -698,33 +823,33 @@ h6 {
     background-color: #2c3e50;
     color: white;
     padding: 2rem 0;
-    /* Esto centra el contenedor principal del footer */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Centrar el texto directamente en el footer para asegurar */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
+    text-align: center; /* Centrar el texto por si acaso */
 }
 
 /* Estilo para el contenedor dentro del footer */
 .footer .container {
     display: flex;
-    flex-direction: row; /* Por defecto en fila para escritorio */
-    justify-content: center; /* Centra los dos bloques (copyright y enlaces) */
+    flex-direction: row; /* Elementos en fila por defecto para escritorio */
+    justify-content: center; /* Centra los dos bloques (copyright y enlaces) como un grupo */
     align-items: center; /* Alinea verticalmente los ítems en el centro */
     flex-wrap: wrap; /* Permite que los elementos salten de línea si no caben */
-    width: 100%; /* Asegura que ocupe todo el ancho disponible para el centrado */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
     max-width: 1200px; /* Mantener el max-width del contenedor */
+    gap: 1rem; /* Espacio entre los dos bloques (copyright y enlaces) */
 }
 
 .footer-copyright {
-    padding-right: 1rem; /* Espacio entre el copyright y los enlaces */
-    flex-shrink: 0;
+    /* No necesitamos padding-right aquí si el gap maneja el espacio */
+    flex-shrink: 0; /* Evita que el copyright se encoja */
 }
 
 .footer-links {
     display: flex;
-    gap: 2rem;
-    justify-content: center; /* Centrar los enlaces entre sí */
+    gap: 2rem; /* Espacio entre los enlaces individuales */
+    justify-content: center; /* Centrar los enlaces entre sí si la línea es más corta */
     flex-wrap: wrap; /* Permite que los enlaces salten de línea */
 }
 
@@ -800,12 +925,12 @@ h6 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center; /* Asegura el centrado del texto */
+        text-align: center;
         gap: 1rem; /* Espacio entre los ítems apilados */
     }
     
     .footer-copyright {
-        padding-right: 0; /* Quitar padding derecho en móvil */
+        padding-right: 0;
         margin-bottom: 0.5rem; /* Pequeño margen debajo del copyright en móvil */
     }
 
