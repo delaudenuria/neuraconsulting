@@ -374,10 +374,10 @@ h6 {
 }
 
 .logo-item img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
-    filter: grayscale(100%);
+    filter: grayscale(0%);
     opacity: 0.8;
     transition: opacity 0.3s ease, filter 0.3s ease;
 }
@@ -644,7 +644,6 @@ h6 {
 }
 
 .social-link {
-    background-color: #4a00e0;
     color: white;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -657,7 +656,6 @@ h6 {
 }
 
 .social-link:hover {
-    background-color: #3a00b0;
     transform: translateY(-2px);
     text-decoration: none;
 }
