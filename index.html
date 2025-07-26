@@ -13,6 +13,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%234a00e0'/></svg>"
+        type="image/svg+xml">
 </head>
 
 <body>
@@ -88,16 +92,11 @@
 
     <section class="trusted-by" id="clientes">
         <div class="container">
-            <h2 class="section-title">Confiaron en Nosotros</h2>
+            <h2 class="section-title">Confiaron en nosotros</h2>
             <p class="trusted-intro">Hemos tenido el privilegio de colaborar con diversas organizaciones.</p>
 
             <div class="logo-carousel">
                 <div class="logo-carousel-track">
-                    <div class="logo-item"><img src="images/logos/poderjudicial.jpeg"
-                            alt="Logo Poder Judicial Tierra del Fuego"></div>
-                    <div class="logo-item"><img src="images/logos/3ng.png" alt="Logo 3NG Tech"></div>
-                    <div class="logo-item"><img src="images/logos/uspt.jpeg" alt="Logo Universidad San Pablo T"></div>
-                    <div class="logo-item"><img src="images/logos/eldar.jpeg" alt="Logo Eldar"></div>
                     <div class="logo-item"><img src="images/logos/poderjudicial.jpeg"
                             alt="Logo Poder Judicial Tierra del Fuego"></div>
                     <div class="logo-item"><img src="images/logos/3ng.png" alt="Logo 3NG Tech"></div>
@@ -164,7 +163,8 @@
                         </svg>
                     </div>
                     <h3>Calidad y Confiabilidad de Datos</h3>
-                    <p>Desarrollamos estrategias y herramientas para garantizar la integridad, precisión y consistencia de sus datos, fundamentales para una toma de decisiones precisa.</p>
+                    <p>Desarrollamos estrategias y herramientas para garantizar la integridad, precisión y consistencia
+                        de sus datos, fundamentales para una toma de decisiones precisa.</p>
                 </div>
 
                 <div class="service-card">
@@ -179,7 +179,9 @@
                         </svg>
                     </div>
                     <h3>Optimización de Infraestructura y Bases de Datos</h3>
-                    <p>Diseñamos e implementamos soluciones para estructurar y ordenar sus datos, incluyendo la arquitectura de Data Hubs y la integración de diversas bases de datos para una gestión centralizada y eficiente.</p>
+                    <p>Diseñamos e implementamos soluciones para estructurar y ordenar sus datos, incluyendo la
+                        arquitectura de Data Hubs y la integración de diversas bases de datos para una gestión
+                        centralizada y eficiente.</p>
                 </div>
 
                 <div class="service-card">
@@ -192,7 +194,9 @@
                         </svg>
                     </div>
                     <h3>Neura DataHub</h3>
-                    <p>Diseñamos e implementamos soluciones personalizadas de Data Hub, creando un repositorio inteligente para integrar, gestionar y explotar todos sus datos, democratizando la información y el acceso a datos.</p>
+                    <p>Diseñamos e implementamos soluciones personalizadas de Data Hub, creando un repositorio
+                        inteligente para integrar, gestionar y explotar todos sus datos, democratizando la información y
+                        el acceso a datos.</p>
                 </div>
 
             </div>
@@ -272,7 +276,10 @@
                         <span class="faq-icon">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Un Data Hub es una plataforma central que reúne datos de distintas fuentes de forma estructurada, accesible y segura. Sirve para mejorar la calidad, trazabilidad y disponibilidad de los datos, facilitando su uso por distintas áreas de una organización sin duplicarlos ni perder el control.</p>
+                        <p>Un Data Hub es una plataforma central que reúne datos de distintas fuentes de forma
+                            estructurada, accesible y segura. Sirve para mejorar la calidad, trazabilidad y
+                            disponibilidad de los datos, facilitando su uso por distintas áreas de una organización sin
+                            duplicarlos ni perder el control.</p>
                     </div>
                 </div>
 
@@ -292,10 +299,11 @@
 
     <section class="contact" id="contacto">
         <div class="container">
-            <h2 class="section-title">Conéctate con Nosotros</h2>
-            <p class="contact-intro">Descubre cómo podemos potenciar tus datos.</p>
+            <h2 class="section-title">Agenda una Consulta con Nosotros</h2>
+            <p class="contact-intro">Selecciona el horario que mejor se ajuste a tu disponibilidad para conversar sobre
+                cómo Neura Consulting puede potenciar tus datos.</p>
 
-            <div class="contact-content">
+            <!-- <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <h4>📍 Dirección</h4>
@@ -329,44 +337,21 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <form class="contact-form" action="https://formspree.io/f/xyzpeovd" method="POST">
-                    <div class="form-group">
-                        <label for="name">Nombre *</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Teléfono</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="company">Empresa</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Mensaje *</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                </form>
-
-                <div class="form-success-message" style="display: none;">
-                    <p>¡Gracias por tu mensaje!</p>
-                    <p>Nos pondremos en contacto contigo a la brevedad.</p>
-                    <i class="fas fa-check-circle success-icon"></i>
-                </div>
-            </div>
-        </div>
+                <!-- Calendly inline widget begin -->
+                <!-- <div class="calendly-inline-widget"
+                    data-url="https://calendly.com/carrizozulma1?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=4a00e0"
+                    style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                    async></script>
+                Calendly inline widget end 
+            </div> -->
+                <!-- Google Calendar Appointment Scheduling begin -->
+                <iframe
+                    src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3oe_ovlfOhisrN5MUv9YltPi1RnEL3w1Jgn6Ip6J6hrcXzHOwio4LabuDNOcq9EkAB8XzbyGGK?gv=true"
+                    style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+                <!-- end Google Calendar Appointment Scheduling -->
     </section>
 
     <div id="custom-modal" class="custom-modal">
